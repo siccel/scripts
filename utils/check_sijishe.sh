@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# 司机社备选网站检测，输出延迟最低的网站
 websites=("https://sjs47.cc" "https://sjs47.me" "https://sjsyy.vip" "https://sjskk.vip")
 min_delay=99999999
 fastest_site=""
