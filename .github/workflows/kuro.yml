@@ -33,7 +33,7 @@ jobs:
         run: |
           node sudojia_kuro.js
         env:
-          KURO_TOKEN: ${{eyJhbGciOiJIUzI1NiJ9.eyJjcmVhdGVkIjoxNzI3Nzg4NzMwNjMxLCJ1c2VySWQiOjEwMjA2MTAyfQ.YpO29yrxEjECGtlYppTXhsBAzPClq4t5Cxt-ykbD_Ng}}
+          KURO_TOKEN: ${{ secrets.KURO_TOKEN }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
